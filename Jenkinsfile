@@ -21,7 +21,7 @@ pipeline {
     stage('Unit Test') {
       steps {
         script {
-          sh 'echo "ABACATE" '
+          sh 'echo "ABACATE"'
         }
       }
     }
